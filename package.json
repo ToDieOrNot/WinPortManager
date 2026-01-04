@@ -1,0 +1,27 @@
+{
+  "name": "port-manager",
+  "version": "1.0.0",
+  "description": "一个功能完整的 Windows 本地端口管理工具",
+  "main": "port-manager.js",
+  "scripts": {
+    "start": "node port-manager.js",
+    "dev": "node port-manager.js"
+  },
+  "keywords": [
+    "port",
+    "manager",
+    "windows",
+    "localhost",
+    "service"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "ws": "^8.13.0"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  }
+}
+
